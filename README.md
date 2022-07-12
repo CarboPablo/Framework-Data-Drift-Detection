@@ -45,3 +45,6 @@ También se proporciona un informe con la cantidad de alertas obtenidas en cada 
 
 * Para el test estadístico de CHi cuadrado y reconstrución por error de PCA se utliliza la librería de [NannyML](https://nannyml.readthedocs.io/en/stable/index.html).
 * Se recomienda que el tamaño del dataframe de analisis sea mayor que el de referencia. En ningún caso el dataframe de referencia debe ser mayor que el de analisis.
+* El nivel de significación de los test estadísticos está establecido al 5%
+* El número de alteras es relativo al número de datachuncks, por lo que eso cambia para cada caso.
+* Se puede dar el caso de tener drift univariante pero no multivariante y viceversa
